@@ -49,7 +49,7 @@ export function Video(props: VideoProps) {
               <div className="flex items-center gap-4 mt-6">
                 <img
                   className="w-16 h-16 border-2 border-blue-500 rounded-full"
-                  src={data.lesson.teacher.avatarUrl}
+                  src={data.lesson.teacher.avatarURL}
                   alt="" />
 
                 <div className="leading-relaxed">
